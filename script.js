@@ -56,6 +56,9 @@ function min(a, b) {
 }
 
 //task 8 to the power of
-function pow(x, n) {
-  return;
+function pow() {
+  let y = Math.pow((x = 4), (n = 4));
+  return y;
 }
+
+console.log(pow());
