@@ -12,8 +12,8 @@ console.log(quadrupler(-20));
 
 //task3
 
-function welcome(firstname, lastname) {
-  return "hello $ (firstname) $(lastname), how can I help you?";
+function welcome(firstname = "bob", lastname = "bobby") {
+  return "hello " + firstname + " " + lastname + " how can I help you?";
 }
 console.log(welcome());
 
@@ -36,9 +36,12 @@ console.log(Math.round(tempconvertor(80)));
 //else
 //console log - name & age
 
-function myDogage(age, name, dogAge) {
-  dogAge = age * 7;
-  return "My name is ${name}. I am ${myDogage} years old in dog years.";
+function myDogage() {
+  let age = 24;
+  let name = "bob";
+  let dogAge = age * 7;
+  //return "My name is ${name}. I am ${Dogage} years old in dog years.";
+  return "hello " + name + " your dog age is " + dogAge;
 }
 console.log(myDogage());
 
@@ -52,7 +55,7 @@ function min(a, b) {
   return;
 }
 
-//task 8 the power of
+//task 8 to the power of
 function pow(x, n) {
   return;
 }
