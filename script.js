@@ -41,19 +41,24 @@ function myDogage() {
   let name = "bob";
   let dogAge = age * 7;
   //return "My name is ${name}. I am ${Dogage} years old in dog years.";
-  return "hello " + name + " your dog age is " + dogAge;
+  return "Hello " + name + " your dog age is " + dogAge;
 }
 console.log(myDogage());
 
-//task6 calcultor
+//task6 calculator
 
-function calculator(argument1, argument2, argument3) {}
+function calculator() {
+  // let y = Math.calculator(( * ))
+}
 
 //task 7 less than
 
 function min(a, b) {
-  return;
+  let y = Math.min((a = 3), (b = 4));
+  return y;
 }
+
+console.log(min());
 
 //task 8 to the power of
 function pow() {
